@@ -16,26 +16,27 @@ body,
     border-radius: 50%;
     position: absolute;
 }
-.flex-container div {
+div:nth-child(1) {
     top: 0;
     left: 0;
 }
-.flex-container div + div {
+div:nth-child(2) {
+    top: 0;
     left: 600px;
     right: 0;
 }
-.flex-container div + div + div {
-    right: auto;
-    left: 150px;
+div:nth-child(3) {
     top: 100px;
+    left: 150px;
+    right: auto;
 }
-.flex-container div + div + div + div {
+div:nth-child(4) {
+    top: 100px;
     left: 450px;
     right: auto;
-    top: 100px;
 }
-.flex-container div + div + div + div + div {
-    right: auto;
-    left: 300px; 
+div:nth-child(5) {
     top: 200px; 
+    left: 300px; 
+    right: auto;
 }
